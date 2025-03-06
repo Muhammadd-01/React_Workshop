@@ -12,7 +12,7 @@ console.log("End");
 //Promise Example
 
 const myPromise = new Promise((resolve, reject) => {
-    let success = true;
+    let success = false;
     if (success) {
       resolve("Task Successful! ✅");
     } else {
